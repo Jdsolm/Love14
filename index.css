@@ -27,11 +27,12 @@ body  {
 
     --envelope-width: 300px;
 	--envelope-height: 175px;
-	--envelope-clr-bg: #e9a5c4;
-	--envelope-clr-bg-side: #e695b8;
-	--envelope-clr-bg-bottom: #edaecf;
-	--envelope-clr-bg-top: #e9a5c4;
-	--envelope-clr-txt: #fff;
+	--envelope-clr-bg: hsl(333, 98%, 76%);
+	--envelope-clr-bg: hsl(333, 98%, 76%);
+    --envelope-clr-bg-side: hsl(333, 90%, 70%);
+    --envelope-clr-bg-bottom: hsl(333, 85%, 80%);
+    --envelope-clr-bg-top: hsl(333, 88%, 75%);
+    --envelope-clr-txt: #ffffff;
 
 	/*--envelope-transform: rotateY(0deg);*/
 	--envelope-transform-hover: rotateY(180deg);
@@ -47,7 +48,7 @@ body  {
 	); /* delay before revealing card */
 
 	--letter-height: calc(var(--envelope-height) - 2rem);
-	--letter-height-hover: calc(var(--envelope-height) * 1.75);
+	--letter-height-hover: calc(var(--envelope-height) * 1.6);
 
 	--fold-rotate: rotateX(0deg);
 	/*--fold-zindex: 10;*/
@@ -147,10 +148,10 @@ body  {
 }
 .envelope-front .address > p > span:first-child {
 	font-family: system-ui;
-	font-weight: 600;
+	font-weight: 800;
 }
 .envelope-front .address > p > span:last-of-type {
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .envelope-back {
@@ -224,9 +225,10 @@ body  {
     height: 100px;
     object-fit: contain; 
 }
+
 .custom-image2 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: contain; 
 }
 
